@@ -9,6 +9,7 @@ const prodConfig = {
     mode: 'production',
     output: {
         filename: '[name].[contenthash].js',
+        publicPath: '/linking-apps/container/latest/'
     },
     plugins: [
         new ModuleFederationPlugin({
