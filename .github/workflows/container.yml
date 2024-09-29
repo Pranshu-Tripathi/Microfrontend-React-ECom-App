@@ -7,6 +7,7 @@ on:
             - linking-multiple-apps
         paths:
             - 'linking-apps/container/**'
+            - '.github/workflows/container.yml'
 
 defaults:
     run:
