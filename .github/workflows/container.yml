@@ -18,7 +18,7 @@ jobs:
         
         steps:
             - uses: actions/checkout@v2
-            - run: num install
+            - run: npm install
             - run: npm run build
 
             - uses: shinyinc/action-aws-cli@v1.2
