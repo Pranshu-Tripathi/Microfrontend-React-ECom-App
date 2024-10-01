@@ -18,8 +18,6 @@ export default () => {
         <BrowserRouter>
             <StylesProvider generateClassName={generateClassName}>
                 <div>
-                    <h1>Container !</h1>
-                    <hr />
                     <Header 
                     onSignOut={() => setIsSignedIn(false)}
                     isSignedIn={isSignedIn} />
